@@ -14,3 +14,7 @@ body m - body mass,
 fmr % - relative mass of forebrain (to whole brain),
 cmr % - relative mass of cerebellum,
 rmr % - relative mass of rest of the brain.
+
+Most of the neuron count data is collected from articles cited in wikipedia's 'list of animals by number of neurons' page,
+numbers for many birds is colected from this article (https://www.nature.com/articles/s41559-022-01815-x),
+and harbour porpoise's numbers are from here (https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/)
