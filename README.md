@@ -23,4 +23,5 @@ numbers for many birds is colected from this article (https://www.nature.com/art
 and Harbour porpoise's numbers are from here (https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/).
 
 Numbers for Short-finned pilot whale and Common minke whale are from https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=6349577
+
 Only neural counts obtained by isotropic fractionator method are included.
