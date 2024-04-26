@@ -1,0 +1,95 @@
+Animal,Order,Family,Forebrain m,Cerebellum m,Whole brain m,Forebrain n,Cerebellum n,Whole brain n,Body m
+,,,,,,,,,
+African sheath-tailed bat,Chiroptera,Emballonuridae,0.0899,0.054,0.244,"5,080,000","47,984,000","58,580,000",11.5
+Little free-tailed bat,Chiroptera,Molossidae,0.084,0.036,0.208,"5,632,000","25,324,000","34,958,000",5.4
+Rufous trident bat,Chiroptera,Hipposideridae,0.093,0.072,0.251,"6,039,000","59,651,000","69,763,000",13.7
+Common bent-wing bat,Chiroptera,Miniopteridae,0.0858,0.0485,0.219,"6,116,000","44,447,000","55,659,000",11.6
+Naked mole-rat,Rodentia,Heterocephalidae,0.184,0.048,0.392,"6,150,000","15,740,000","26,880,000",35.3
+Commerson's roundleaf bat,Chiroptera,Hipposideridae,0.243,0.107,0.588,"7,877,000","51,875,000","66,719,000",101.9
+Smoky shrew,Eulipotyphla,Soricidae,0.084,0.02,0.176,"9,730,000","20,870,000","36,460,000",7.5
+Ansell's mole-rat,Rodentia,Bathyergidae,0.291,0.2,1.25,"9,730,000","75,440,000","102,820,000",93.45
+Heart-nosed bat,Chiroptera,Megadermatidae,0.257,0.103,0.562,"10,221,000","63,792,000","81,331,000",26
+Short-palated fruit bat,Chiroptera,Pteropodidae,0.461,0.127,0.892,"10,471,000","77,445,000","99,016,000",27
+Common mole-rat,Rodentia,Bathyergidae,0.183,0.121,0.85,"11,730,000","68,810,000","96,240,000",68.58
+Northern short-tailed shrew,Eulipotyphla,Soricidae,0.197,0.037,0.347,"11,876,000","33,430,000","55,190,000",21.6
+Woermann's bat,Chiroptera,Pteropodidae,0.309,0.079,0.55,"11,897,000","49,734,000","65,728,000",17.9
+Mashona mole-rat,Rodentia,Bathyergidae,0.271,0.156,1.23,"12,490,000","84,910,000","113,350,000",115.19
+Zenker's fruit bat,Chiroptera,Pteropodidae,0.323,0.085,0.588,"12,847,000","47,217,000","65,595,000",16.1
+House mouse,Rodentia,Muridae,0.173,0.056,0.402,"13,690,000","42,220,000","67,870,000",20.5
+Hairy-tailed mole,Eulipotyphla,Talpidae,0.429,0.102,0.759,"15,690,000","100,780,000","123,600,000",62.5
+Golden hamster,Rodentia,Cricetidae,0.446,0.145,0.965,"17,140,000","61,210,000","84,220,000",105
+Star-nosed mole,Eulipotyphla,Talpidae,0.42,0.138,0.802,"17,250,000","105,920,000","131,300,000",55.3
+Cryptomys Natalensis,Rodentia,Bathyergidae,0.321,0.175,1.24,"17,460,000","109,750,000","149,980,000",99.02
+Brown four-eyed opossum,Didelphimorphia,Didelphidae,0.992,0.342,2.008,"20,190,000","134,130,000","165,590,000",407
+Grey slender mouse opossum,Didelphimorphia,Didelphidae,0.408,0.158,0.91,"20,410,000","82,400,000","112,050,000",100
+Highveld mole-rat,Rodentia,Bathyergidae,0.315,0.188,1.35,"20,560,000","120,580,000","169,160,000",104.27
+Damaraland mole-rat,Rodentia,Bathyergidae,0.311,0.201,1.39,"21,270,000","129,960,000","178,300,000",110.53
+Hottentot golden mole,Afrosoricida,Chrysochloridae,0.439,0.084,0.812,"21,516,000","34,488,000","65,074,000",79
+Grey mouse lemur,Primates,Cheirogaleidae,0.908,0.391,1.799,"22,310,000","221,380,000","254,710,000",64.8
+Franquet's epauletted fruit bat,Chiroptera,Pteropodidae,1.04,0.286,2.044,"22,533,000","150,660,000","186,002,000",120
+Mechow's mole-rat,Rodentia,Bathyergidae,0.627,0.391,2.15,"23,320,000","122,640,000","174,240,000",270.16
+Hammer-headed bat,Chiroptera,Pteropodidae,1.805,0.456,3.459,"24,343,000","221,298,000","274,519,000",310
+Silvery mole-rat,Rodentia,Bathyergidae,0.457,0.215,1.65,"25,440,000","94,820,000","147,940,000",180.51
+Cape mole-rat,Rodentia,Bathyergidae,0.401,0.25,1.65,"25,600,000","116,740,000","169,670,000",155.09
+Eastern rock elephant shrew,Macroscelidea,Macroscelididae,0.471,0.168,1.04,"25,865,000","89,312,000","129,191,000",45.1
+Cayenne spiny rat,Rodentia,Echimyidae,0.924,0.33,2.078,"26,090,000","162,510,000","202,090,000",356.5
+Wahlberg's epauletted fruit bat,Chiroptera,Pteropodidae,0.634,0.193,1.224,"26,201,000","121,136,000","161,755,000",74
+Eastern mole,Eulipotyphla,Talpidae,0.476,0.153,0.999,"26,680,000","158,550,000","203,500,000",90
+Egyptian fruit bat,Chiroptera,Pteropodidae,0.985,0.219,1.778,"28,859,000","132,436,000","172,232,000",120
+Brown rat,Rodentia,Muridae,0.769,0.272,1.724,"31,020,000","139,170,000","188,870,000",300
+Four-toed elephant shrew,Macroscelidea,Macroscelididae,1.239,0.304,2.44,"33,947,000","110,650,000","156,830,000",210
+Ferret,Carnivora,Mustelidae,3.123,0.92,5.429,"38,950,000","351,260,000","404,430,000",809
+Big-eared opossum,Didelphimorphia,Didelphidae,2.136,0.778,4.292,"42,500,000","334,260,000","392,500,000",1200
+Cape dune mole-rat,Rodentia,Bathyergidae,1.011,0.683,3.78,"43,480,000","268,890,000","361,290,000",907.82
+Guinea pig,Rodentia,Caviidae,1.938,0.5,3.656,"43,510,000","167,850,000","233,560,000",728
+Prairie dog,Rodentia,Sciuridae,2.586,0.789,5.321,"53,768,000","350,085,000","437,944,000",1515
+Common treeshrew,Scandentia,Tupaiidae,1.455,0.326,2.752,"60,390,000","185,280,000","261,400,000",200
+European rabbit,Lagomorpha,Leporidae,4.448,1.412,9.132,"71,450,000","396,670,000","494,200,000",1800
+Eastern grey squirrel,Rodentia,Sciuridae,2.73,0.874,5.548,"77,330,000","342,830,000","453,660,000",533
+Western tree hyrax,Hyracoidea,Procaviidae,7.56,1.918,12.8,"98,960,000","360,929,000","504,573,000",1150
+Black-rumped agouti*,Rodentia,Dasyproctidae,8.913,2.742,17.628,"110,640,000","673,490,000","827,330,000",2843.3
+Banded mongoose,Carnivora,Herpestidae,9.29,1.548,14.292,"115,770,000","315,740,000","454,020,000",1332
+Tasmanian devil*,Dasyuromorphia,Dasyuridae,5.228,1.434,9.802,"122,600,000","601,070,000","744,640,000",8200
+Parma wallaby,Diprotodontia,Macropodidae,9.914,1.69,15.714,"135,620,000","558,080,000","711,130,000",4268
+Rock hyrax,Hyracoidea,Procaviidae,10.478,2.058,16.853,"197,930,000","488,370,000","755,650,000",3600
+Swamp wallaby,Diprotodontia,Macropodidae,15.182,4.42,30.012,"208,110,000","1,200,000,000","1,440,000,000",12066
+Northern greater galago,Primates,Galagidae,6.29,1.196,10.15,"226,090,000","743,500,000","936,000,000",1300
+Raccoon dog,Carnivora,Canidae,15.53,3.26,28.11,"240,180,000","844,740,000","1,160,000,000",8545
+Common marmoset,Primates,Callitrichidae,5.561,0.73,7.78,"244,720,000","361,370,000","635,800,000",255.2
+House cat,Carnivora,Felidae,24.176,5.11,34.858,"249,830,000","942,900,000","1,215,000,000",3900
+Brown bear,Carnivora,Ursidae,222,45.106,315.004,"250,970,000","9,253,000,000","9,585,000,000",277500
+Bennett's wallaby,Diprotodontia,Macropodidae,16.102,3.572,26.994,"256,780,000","1,020,000,000","1,320,000,000",11110
+Goodfellow's tree-kangaroo,Diprotodontia,Macropodidae,19.57,4.236,31.548,"273,430,000","1,240,000,000","1,550,000,000",13608
+Capybara,Rodentia,Caviidae,48.175,6.632,74.734,"306,500,000","1,157,000,000","1,572,000,000",55000
+Domestic pig,Artiodactyla,Suidae,42.404,8.128,64.18,"307,082,000","1,858,000,000","2,224,000,000",130000
+Red fox,Carnivora,Canidae,24.41,4.823,41.94,"355,010,000","1,640,000,000","2,110,000,000",5490
+Western grey kangaroo,Diprotodontia,Macropodidae,40.194,7.358,62.724,"370,170,000","1,990,000,000","2,460,000,000",25855
+Golden jackal,Carnivora,Canidae,34.88,4.97,55.6,"393,620,000","1,218,000,000","1,730,000,000",9200
+Springbok,Artiodactyla,Bovidae,68.806,11.458,106.074,"396,900,000","2,257,000,000","2,724,000,000",39000
+Raccoon,Carnivora,Procyonidae,24.491,3.338,34.186,"437,940,000","1,646,000,000","2,148,000,000",6000
+West highland white terrier (dog),Carnivora,Canidae,46.56,7.342,76.7,"440,160,000","2,187,000,000","2,830,000,000",9400
+Three-striped night monkey,Primates,Aotidae,10.617,1.732,15.73,"441,900,000","1,040,000,000","1,468,000,000",800
+Chow chow (dog),Carnivora,Canidae,39.74,7.82,69.2,"471,500,000","1,969,000,000","2,610,000,000",26000
+Striped hyena,Carnivora,Hyaenidae,67.45,14.032,99.214,"495,280,000","3,330,000,000","3,885,000,000",40000
+Chihuahua (dog),Carnivora,Canidae,32.48,5.06,52.1,"513,330,000","1,819,000,000","2,510,000,000",4000
+Domestic dog,Carnivora,Canidae,65.491,7.512,86.462,"527,910,000","1,676,000,000","2,252,000,000",19700
+Lion,Carnivora,Felidae,139.902,24.882,198.946,"545,240,000","4,049,000,000","4,667,000,000",175000
+Blesbok,Artiodactyla,Bovidae,111.31,13.402,154.718,"570,670,000","2,401,000,000","3,058,000,000",84500
+Yorkshire terrier (dog),Carnivora,Canidae,38.74,6.063,61.7,"572,140,000","1,811,000,000","2,640,000,000",7600
+Transylvanian hound (dog),Carnivora,Canidae,81.3,11.189,124.3,"725,760,000","3,413,000,000","4,390,000,000",31500
+Greater kudu,Artiodactyla,Bovidae,213.37,31.776,306.86,"762,000,000","4,042,000,000","4,911,000,000",217500
+Long-tailed macaque,Primates,Cercopithecidae,36.226,5.642,46.162,"800,960,000","2,572,000,000","3,439,000,000",6363
+Beagle (dog),Carnivora,Canidae,53.11,10.938,88,"844,410,000","3,222,000,000","4,330,000,000",12300
+Komondor (dog),Carnivora,Canidae,97.75,15.752,149.3,"883,380,000","2,912,000,000","3,990,000,000",48400
+German shepherd (dog),Carnivora,Canidae,70.37,9.752,109,"885,460,000","2,454,000,000","3,530,000,000",44400
+Brown capuchin,Primates,Cebidae,39.178,4.6,52.208,"1,140,000,000","2,490,000,000","3,690,000,000",2643
+Common squirrel monkey,Primates,Cebidae,20.652,4.3,30.216,"1,340,000,000","1,820,000,000","3,246,000,000",925
+Bonnet macaque,Primates,Cercopithecidae,48.274,5.748,61.47,"1,655,000,000","2,038,000,000","3,755,000,000",6755
+Rhesus macaque,Primates,Cercopithecidae,69.832,7.694,87.346,"1,710,000,000","4,550,000,000","6,376,000,000",8235
+Giraffe,Artiodactyla,Giraffidae,398.808,67.73,537.218,"1,731,000,000","8,878,000,000","10,751,000,000",800000
+Harbour porpoise,Artiodactyla,Phocoenidae,382.77,106.14,563.53,"2,770,000,000","23,400,000,000","26,300,000,000",52500
+Yellow baboon,Primates,Cercopithecidae,120.214,13.745,151.194,"2,875,000,000","7,794,000,000","10,948,000,000",20000
+Common minke whale,Artiodactyla,Balaenopteridae,2037.024,415.918,2715.9,"3,134,000,000","54,216,000,000","57,472,000,000",7500000
+African elephant,Proboscidea,Elephantidae,2847,1171,4618,"5,593,000,000","250,700,000,000","257,040,000,000",4800000
+Short-finned pilot whale,Artiodactyla,Delphinidae,1835.9,377.442,2462.5,"11,850,000,000","114,917,000,000","127,573,000,000",2200000
+Human,Primates,Hominidae,1232,154.02,1508,"16,340,000,000","69,030,000,000","86,000,000,000",62035
