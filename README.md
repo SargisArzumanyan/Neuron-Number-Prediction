@@ -19,6 +19,7 @@ All masses are provided in grams.
 Most of the neuron count data is collected from articles cited in wikipedia's 'list of animals by number of neurons' page,
 (https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons),
 numbers for many birds is colected from this article (https://www.nature.com/articles/s41559-022-01815-x),
+additionally counts for 19 more bird species are colected from https://dspace.cuni.cz/handle/20.500.11956/151559 
 
 and Harbour porpoise's numbers are from here (https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/).
 
