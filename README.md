@@ -35,8 +35,17 @@ Only neural counts obtained by isotropic fractionator method are included.
 
 ## References
 
-[1^]: https://www.nature.com/articles/s41559-022-01815-x?utm_source=researchgate.net&utm_medium=article 
-[2^]: https://pmc.ncbi.nlm.nih.gov/articles/PMC1805542/
-[3^]: https://www.sciencedirect.com/science/chapter/referencework/abs/pii/B978044327380300049X?via%3Dihub
-[4^]: https://pmc.ncbi.nlm.nih.gov/articles/PMC4932926/
-[5^]: https://onlinelibrary.wiley.com/doi/10.1002/cne.25298
+[1^]: [Sol, D., Olkowicz, S., Sayol, F. et al. Neuron numbers link innovativeness with both absolute and relative brain size in birds. Nat Ecol Evol 6, 1381–1389 (2022). https://doi.org/10.1038/s41559-022-01815-x](https://www.nature.com/articles/s41559-022-01815-x?utm_source=researchgate.net&utm_medium=article) 
+[2^]: [S. Herculano-Houzel, C.E. Collins, P. Wong, & J.H. Kaas, Cellular scaling rules for primate brains, Proc. Natl. Acad. Sci. U.S.A. 104 (9) 3562-3567, https://doi.org/10.1073/pnas.0611396104 (2007).](https://www.pnas.org/doi/full/10.1073/pnas.0611396104)
+[3^]: [Suzana Herculano-Houzel,
+2.07 - The neuron number manifesto: Let's drop body mass from the search for biological correlates of intelligent, flexible cognition in evolution,
+Editor(s): Jon H. Kaas, Suzana Herculano-Houzel,
+Evolution of Nervous Systems (Third Edition),
+Academic Press,
+2026,
+Pages 183-198,
+ISBN 9780443273810,
+https://doi.org/10.1016/B978-0-443-27380-3.00049-X.
+(https://www.sciencedirect.com/science/article/pii/B978044327380300049X)](https://www.sciencedirect.com/science/chapter/referencework/abs/pii/B978044327380300049X?via%3Dihub)
+[4^]: [Olkowicz S, Kocourek M, Lučan RK, Porteš M, Fitch WT, Herculano-Houzel S, Němec P. Birds have primate-like numbers of neurons in the forebrain. Proc Natl Acad Sci U S A. 2016 Jun 28;113(26):7255-60. doi: 10.1073/pnas.1517131113. Epub 2016 Jun 13. PMID: 27298365; PMCID: PMC4932926.](https://pmc.ncbi.nlm.nih.gov/articles/PMC4932926/)
+[5^]: [Ströckens, F., Neves, K., Kirchem, S., Schwab, C., Herculano-Houzel, S., & Güntürkün, O. (2022). High associative neuron numbers could drive cognitive performance in corvid species. Journal of Comparative Neurology, 530, 1588–1605. https://doi.org/10.1002/cne.25298](https://onlinelibrary.wiley.com/doi/10.1002/cne.25298)
