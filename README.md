@@ -6,6 +6,7 @@ Before starting, I want to remind that intelligence and complexity is not what m
 
 Now let's start.
 
+## Introduction
 Recently it was found that forebrain neuron count is a better predictor of animal's intelligence than brain size or the encephalization quotient (EQ) [^1] [^3], it also often coincides with our intuitive perception of intelligence, for example primates have higher neuron densities [^2] and are generally considered to be more intelligent than other mammals with similar brain masses, corvids and parrots are another example [^4], although the importance of neuron counts in purely associative regions such as prefrontal cortex of mammals is also suggested [^3] [^5].
 Cetacean are especially an interesting case, there is a high probability that many species are sapient, and there is a controversy in their neuron count estimates with different researchers getting very different results when measuring neuron densities in the cortices of the same species. The question of how intelligent are different cetacean species? is very important, since anything comparable to humans will have implications akin to making a contact with alien civilization.
 In this project only neuron counts obtained by the isotropic fractionator [^6] or a comparable method will be used.
