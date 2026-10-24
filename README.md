@@ -7,15 +7,15 @@ Before starting, I want to remind that intelligence and complexity is not what m
 Now let's start.
 
 # Introduction
-Recently it was found that forebrain neuron count is a better predictor of animal's intelligence than [brain size][^1] or [the encephalization quotient (EQ)][^3], it also often coincides with our intuitive perception of intelligence, for example primates have higher [neuron densities][^2] and are generally considered to be more intelligent than other mammals with similar brain masses, corvids and parrots are another example [^4], although the importance of neuron counts in [purely associative regions][^5] such as prefrontal cortex of mammals is also [suggested][^3].
+Recently it was found that forebrain neuron count is a better predictor of animal's intelligence than [brain size][1^] or [the encephalization quotient (EQ)][3^], it also often coincides with our intuitive perception of intelligence, for example primates have higher [neuron densities][2^] and are generally considered to be more intelligent than other mammals with similar brain masses, corvids and parrots are another [example][4^], although the importance of neuron counts in [purely associative regions][5^] such as prefrontal cortex of mammals is also [suggested][3^].
 Cetacean are especially an interesting case, there is a high probability that several species are sapient, and there is a controversy in their neuron count estimates with different researchers getting very different results when measuring neuron densities in the cortices of the same species using stereological methods. The question of how intelligent are different cetacean species? is very important, since anything comparable to humans will have implications akin to making a contact with alien civilization.
-Because there is less room for errors when applying the [isotropic fractionator method][^6], only neuron counts obtained by that or very similar methods will be used.
+Because there is less room for errors when applying the [isotropic fractionator method][6^], only neuron counts obtained by that or very similar methods will be used.
 
 ## Note on Short-finned pilot whale neuron count
 
 According to [this blog post](https://darwinianconservatism.blogspot.com/2026/01/do-large-cetacean-brains-deny-human.html?m=1) only total cell counts of Short-finned pilot whale brain structures are certainly correct, but I find it significantly more likely, that the 11.85 billion cortical neuron count present in dissertation is an underestimate than an overestimate, because total cell count is very high.
 Let's look at numbers.
-From [dissertation][^7]
+From [dissertation][7^]
 cortex mass - 1835.9 gram
 cortical neurons - 11.85 billion
 cortical other cells (glial + endothelial cells) - 339.29 billion
@@ -46,7 +46,7 @@ numbers for many birds are colected from [1^] article,
 
 and Harbour porpoise's numbers are from here (https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/).
 
-Numbers for Short-finned pilot whale and Common minke whale are from [^7]
+Numbers for Short-finned pilot whale and Common minke whale are [from][7^]
 
 
 ## References
