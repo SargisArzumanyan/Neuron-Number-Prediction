@@ -44,7 +44,7 @@ All masses are provided in grams.
 Most of the neuron count data is collected from articles cited in wikipedia's [list of animals by number of neurons page](https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons),
 numbers for many birds are colected from [^1] article,
 
-and Harbour porpoise's numbers are from here (https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/).
+and Harbour porpoise's numbers are from [here](https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/).
 
 Numbers for Short-finned pilot whale and Common minke whale are from [^7]
 
