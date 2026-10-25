@@ -22,7 +22,7 @@ cortical other cells (glial + endothelial cells) - 339.29 billion.
 
 From these numbers we can obtain 184.8 million other cells in a gram of cortex other cells density.
 Note, that in dissertation the number for density is nearly twice lower, but since neuron density is also twice lower than what we get by dividing the count by mass and both 11.85 billion count and 1800 gram mass are present elsewhere, including in the abstract, it much more likely that density and not other values are incorrect.
-If we look at the mammalian datasets [^8][^9], the highest other cell density has Smoky shrew 111.754 million/gram, and the variation in other cell density is much lower than that of neurons, with most species falling between 40 - 80 million/gram range, assuming even 120 million/gram other cell density in Short-finned pilot whale cortex will still mean 220 billion other cells and 130 billion neurons in the cortex, so Pilot whale are very large outliers either in neuron count, other cells count or in both.
+If we look at the mammalian datasets [^8] [^9], the highest other cell density has Smoky shrew 111.754 million/gram, and the variation in other cell density is much lower than that of neurons, with most species falling between 40 - 80 million/gram range, assuming even 120 million/gram other cell density in Short-finned pilot whale cortex will still mean 220 billion other cells and 130 billion neurons in the cortex, so Pilot whale are very large outliers either in neuron count, other cells count or in both.
 
 
 # Abbreviations in csv data files
