@@ -7,9 +7,13 @@ Before starting, I want to remind that intelligence and complexity is not what m
 Now let's start.
 
 # Introduction
+Defining what is intelligence is always subjective and heavily depends on culture, here i will use definition very similar to that of [fluid intelligence](https://en.wikipedia.org/wiki/Fluid_and_crystallized_intelligence).
 Recently it was found that forebrain neuron count is a better predictor of animal's intelligence than brain size [^1] or the encephalization quotient (EQ) [^3], it also often coincides with our intuitive perception of intelligence, for example primates have higher neuron densities [^2] and are generally considered to be more intelligent than other mammals with similar brain masses, corvids and parrots are another example [^4], although the importance of neuron counts in purely associative regions [^5] such as prefrontal cortex of mammals is also suggested [^3].
-Cetacean are especially an interesting case, there is a high probability that several species are sapient, and there is a controversy in their neuron count estimates with different researchers getting very different results when measuring neuron densities in the cortices of the same species using stereological methods. The question of how intelligent are different cetacean species? is very important, since anything comparable to humans will have implications akin to making a contact with alien civilization.
-Because there is less room for errors when applying the isotropic fractionator method [^6], only neuron counts obtained by that or very similar methods will be used.
+Cetacean are especially an interesting case, there is a high probability that several species are sapient, and there is a controversy in their neuron count estimates with different researchers getting very different results when measuring neuron densities in the cortices of the same species using stereological methods [^11] [^12]. The question of how intelligent are different cetacean species? is very important, since anything comparable to humans will have implications akin to making a contact with alien civilization.
+
+## Why only use data obtained by isotropic fractionator or similar methods? 
+Neurons are distributed very unevenly across cortical and other brain regions, counting them only in a few sampled areas may not give accurate results, especially for large brains.
+Isotropic fractionator solves that problem by turning the structure such as cerebral cortex or pieces of it into a uniform suspension of free-floating cell nuclei, which are distributed evenly, and the densities in small samples become very close to the true average density [^6].
 
 ## Note on Short-finned pilot whale neuron count
 
@@ -70,3 +74,13 @@ https://doi.org/10.1016/B978-0-443-27380-3.00049-X.
 [^8]: [Herculano-Houzel S, Catania K, Manger PR, Kaas JH (2015). "Mammalian Brains Are Made of These: A Dataset of the Numbers and Densities of Neuronal and Nonneuronal Cells in the Brain of Glires, Primates, Scandentia, Eulipotyphlans, Afrotherians and Artiodactyls, and Their Relationship with Body Mass". Brain, Behavior and Evolution. 86 (3–4). S. Karger AG: 145–63. doi:10.1159/000437413. PMID 26418466. S2CID 10637829](https://karger.com/bbe/article/86/3-4/145/47190/Mammalian-Brains-Are-Made-of-These-A-Dataset-of)
 [^9]: [Jardim-Messeder D, Lambert K, Noctor S, Pestana FM, de Castro Leal ME, Bertelsen MF, Alagaili AN, Mohammad OB, Manger PR, Herculano-Houzel S. Dogs Have the Most Neurons, Though Not the Largest Brain: Trade-Off between Body Mass and Number of Neurons in the Cerebral Cortex of Large Carnivoran Species. Front Neuroanat. 2017 Dec 12;11:118. doi: 10.3389/fnana.2017.00118. PMID: 29311850; PMCID: PMC5733047.](https://pmc.ncbi.nlm.nih.gov/articles/PMC5733047/)
 [^10]: [Sandra E. Dos Santos, Jairo Porfirio, Felipe B. da Cunha, Paul R. Manger, William Tavares, Leila Pessoa, Mary Ann Raghanti, Chet C. Sherwood, Suzana Herculano-Houzel; Cellular Scaling Rules for the Brains of Marsupials: Not as “Primitive” as Expected. Brain Behav Evol 31 March 2017; 89 (1): 48–63. https://doi.org/10.1159/000452856](https://karger.com/bbe/article-abstract/89/1/48/47074/Cellular-Scaling-Rules-for-the-Brains-of?redirectedFrom=fulltext)
+[^11]: [C. Poth, C. Fung, O. Güntürkün, S.H. Ridgway, H.H.A. Oelschläger,
+Neuron numbers in sensory cortices of five delphinids compared to a physeterid, the pygmy sperm whale,
+Brain Research Bulletin,
+Volume 66, Issues 4–6,
+2005,
+Pages 357-360,
+ISSN 0361-9230,
+https://doi.org/10.1016/j.brainresbull.2005.02.001.
+(https://www.sciencedirect.com/science/article/pii/S0361923005000420)](https://www.bio.psy.ruhr-uni-bochum.de/bpsy/mam/content/documents/poth_2005_neuron_numbers_in_sensory_cortices_of_five_delphinids.pdf)
+[^12]: [Ridgway SH, Brownson RH, Van Alstyne KR, Hauser RA. Higher neuron densities in the cerebral cortex and larger cerebellums may limit dive times of delphinids compared to deep-diving toothed whales. PLoS One. 2019 Dec 16;14(12):e0226206. doi: 10.1371/journal.pone.0226206. PMID: 31841529; PMCID: PMC6914331.](https://pmc.ncbi.nlm.nih.gov/articles/PMC6914331/)
