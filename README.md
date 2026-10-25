@@ -16,9 +16,9 @@ Because there is less room for errors when applying the isotropic fractionator m
 According to [this blog post](https://darwinianconservatism.blogspot.com/2026/01/do-large-cetacean-brains-deny-human.html?m=1) only total cell counts of Short-finned pilot whale brain structures are certainly correct, but I find it significantly more likely, that the 11.85 billion cortical neuron count present in dissertation is an underestimate than an overestimate, because total cell count is very high.
 Let's look at numbers.
 From dissertation [^7]
-cortex mass - 1835.9 gram
-cortical neurons - 11.85 billion
-cortical other cells (glial + endothelial cells) - 339.29 billion
+cortex mass - 1835.9 gram,
+cortical neurons - 11.85 billion,
+cortical other cells (glial + endothelial cells) - 339.29 billion.
 
 From these numbers we can obtain 184.8 million other cells in a gram of cortex other cells density
 Note, that in dissertation the number for density is nearly twice lower, but since neuron density is also twice lower than what we get by dividing the count by mass and both 11.85 billion count and 1800 gram mass are present elsewhere, including in the abstract, it much more likely that density and not other values are incorrect.
