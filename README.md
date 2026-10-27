@@ -149,7 +149,7 @@ As we can see, the r2 score for forebrain neuron count improved farther up to 0.
 
 ### Observation for cerebellum
 
-Since correlation between cerebellum mass and cerebellum neuron count is very high (0.98), it's almost guaranteed that a simple linear regression model would have performed much better.
+Since correlation between cerebellum mass and cerebellum neuron count is very high (0.98), it's much more likely that a simple linear regression model would have performed much better.
 # Abbreviations in csv data files
 
 Forebr m - forebrain mass (cerebral cortex in mammals, pallium in birds),
