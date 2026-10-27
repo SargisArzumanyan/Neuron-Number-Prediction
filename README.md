@@ -133,7 +133,7 @@ For forebrain neuron count, the forebrain mass feature will be paired with the r
 
 <img width="463" height="732" alt="AdobeExpressPhotos_ecd3b667a0a1402cb42c4ae6b8c3711b_CopyEdited" src="https://github.com/user-attachments/assets/10f34125-72c2-4649-ab95-9ea4d4bf0588" />
 
-As we can see adding taxonomic information improved the results, with 'Forebrain m' and 'Family' given r2 score of 0.9037.
+As we can see adding taxonomic information improved the results, with 'Forebrain m' and 'Family' the r2 score is 0.9037.
 
 For cerebellum neuron count, the cerebellum mass will be paired in the same way.
 
