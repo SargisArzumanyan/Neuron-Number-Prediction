@@ -28,6 +28,32 @@ From these numbers we can obtain 184.8 million other cells in a gram of cortex o
 Note, that in dissertation the number for density is nearly twice lower, but since neuron density is also twice lower than what we get by dividing the count by mass and both 11.85 billion count and 1800 gram mass are present elsewhere, including in the abstract, it much more likely that density and not other values are incorrect.
 If we look at the mammalian datasets [^8] [^9] [^10], the highest other cell density has Smoky shrew 111.754 million/gram, and the variation in other cell density is much lower than that of neurons, with most species falling between 40 - 80 million/gram range, assuming even 120 million/gram other cell density in Short-finned pilot whale cortex will still mean 220 billion other cells and 130 billion neurons in the cerebral cortex, so Pilot whale are very large outliers either in neuron count, other cells count or in both.
 
+# Results
+
+## Mammals
+
+Let's first look at pictures.
+Note that cetaceans belong to the order Artiodactyla, which is also sometimes called Cetaartiodactyla, to which alongside cetaceans belong animals such as Deers, Pigs, Giraffes, currently, there are only 3 cetaceans in the dataset, Harbor porpoise, Minke whale, and Short-finned pilot whale, which occupy highest 3 values of Artiodactyla (have lilac color on graphs) 
+Scatter plots
+1. As we can see in Primates (pink) neuron counts grow faster with cortical mass
+<img width="1007" height="679" alt="image" src="https://github.com/user-attachments/assets/b5e2362d-434e-4305-a558-d0a1cb1369c1" />
+2. The same is true for cerebellum, but the difference is smaller
+<img width="995" height="679" alt="image" src="https://github.com/user-attachments/assets/90f1512a-77b8-4596-87e2-f3a18a71a6f8" />
+3. In all orders cortical neuron density falls as brains get larger, but Primates have higher neuron densities than others
+<img width="1007" height="679" alt="image" src="https://github.com/user-attachments/assets/d2e6c4b1-a9ee-4526-a79e-c4609b34fdcd" />
+4. The same is true for cerebellum
+<img width="999" height="679" alt="image" src="https://github.com/user-attachments/assets/9a1e5d67-f629-4319-b642-e802f3444468" />
+Hostograms
+1. Most forebrain mass values are concentrated between 0.1 - 1 gram and 1 - 100 gram ranges
+<img width="987" height="697" alt="image" src="https://github.com/user-attachments/assets/d8e57efd-164c-4d77-b6f0-1f9d4067c436" />
+2. Most forebrain neuron count values are between 10 million - 100 million followed by 100 million - 1 billion ranges
+<img width="987" height="697" alt="image" src="https://github.com/user-attachments/assets/bc3174d3-f73d-4417-aa29-80091c98e7e0" />
+3. Most cerebellum mass values are between 0.1 - 1 gram range and between 1 - 10 gram range
+<img width="987" height="697" alt="image" src="https://github.com/user-attachments/assets/28c9dfb8-7668-429d-840a-c66a5152195c" />
+4. Most cerebellum neuron counts are between 10 million and billion or bitween 1 billion and 10 billion 
+<img width="987" height="697" alt="image" src="https://github.com/user-attachments/assets/21d482ad-ac00-4d60-be16-fcb002e014ac" />
+
+
 
 # Abbreviations in csv data files
 Forebr m - forebrain mass (cerebral cortex in mammals, pallium in birds),
