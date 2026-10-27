@@ -7,6 +7,7 @@ Before starting, I want to remind that intelligence and complexity is not what m
 Now let's start.
 
 # Introduction
+
 Defining what is intelligence is always subjective and heavily depends on culture, here i will use definition very similar to that of [fluid intelligence](https://en.wikipedia.org/wiki/Fluid_and_crystallized_intelligence).
 Recently it was found that forebrain neuron count is a better predictor of animal's intelligence than brain size [^1] or the encephalization quotient (EQ) [^3], it also often coincides with our intuitive perception of intelligence, for example primates have higher neuron densities [^2] and are generally considered to be more intelligent than other mammals with similar brain masses, corvids and parrots are another example [^4], although the importance of neuron counts in purely associative regions [^5] such as prefrontal cortex of mammals is also suggested [^3].
 Cetacean are especially an interesting case, there is a high probability that several species are sapient, and there is a controversy in their neuron count estimates with different researchers getting very different results when measuring neuron densities in the cortices of the same species using stereological methods [^11] [^12]. The question of how intelligent are different cetacean species? is very important, since anything comparable to humans will have implications akin to making a contact with alien civilization.
@@ -94,17 +95,21 @@ The following features are used for this model
 For forebrain neuron count 
 
 r2 score and mean squared error values are
+
 <img width="654" height="169" alt="AdobeExpressPhotos_7d9133faffa84b6fbce9858e83ee0c19_CopyEdited" src="https://github.com/user-attachments/assets/48e1ee0a-2a74-4986-9d6b-9513676ac785" />
 
 Features ranked by importance
+
 <img width="833" height="560" alt="image" src="https://github.com/user-attachments/assets/a3609f3a-b954-49f4-9276-3fbb44c14c0a" />
 
 For cerebellum neuron count
 
 r2 score and mean squared error
+
 <img width="728" height="176" alt="AdobeExpressPhotos_6535ef038231489f9bcf95894d3778bc_CopyEdited" src="https://github.com/user-attachments/assets/3debdb99-30d3-49c7-bce0-1af982ad6f2b" />
 
 features ranked by importance
+
 <img width="833" height="560" alt="image" src="https://github.com/user-attachments/assets/31171512-4e16-4ba6-b068-046b10662bcc" />
 
 As we can see forebrain neuron counts are much easier to predict
@@ -118,13 +123,32 @@ The results for forebrain neuron count
 As we can see Cerebellum mass, whole brain mass and forebrain mass are the most informative features with 0.8992, 0.88, 0.8776 r2 scores respectively.
 This scores are considerably higher than the ones obtained when combined features were used in previous section, suggesting that the existence of correlation between different features caused multicollinearity and made the results worse.
 
-But for cerebellum no improvement was made, with body mass being the most informative feature with r2 score of 0.57
+But for cerebellum no improvement was made, with body mass being the most informative feature with r2 score of 0.57.
 
 <img width="451" height="440" alt="AdobeExpressPhotos_b78715caf0224d80b89da071058eebe2_CopyEdited" src="https://github.com/user-attachments/assets/2c3db2e1-f5ea-4c7d-8b48-268a1d7d1f14" />
 
+### Let's pair 1 most intuitively important feature with each of others, including categorical taxonomic features, 'order' and 'family'
 
+For forebrain neuron count, the forebrain mass feature will be paired with the rest.
+
+<img width="463" height="732" alt="AdobeExpressPhotos_ecd3b667a0a1402cb42c4ae6b8c3711b_CopyEdited" src="https://github.com/user-attachments/assets/10f34125-72c2-4649-ab95-9ea4d4bf0588" />
+
+As we can see adding taxonomic information improved the results, with 'Forebrain m' and 'Family' given r2 score of 0.9037.
+
+For cerebellum neuron count, the cerebellum mass will be paired in the same way.
+
+<img width="497" height="724" alt="image" src="https://github.com/user-attachments/assets/11c5e333-ad0f-4963-935d-c15d85f81f9e" />
+
+As we can see, in this case no improvement was made
+
+### Using structure mass + both taxonomic features
+
+<img width="518" height="117" alt="AdobeExpressPhotos_d0d0ebd97a164f09a51b6947b2d6bfcd_CopyEdited" src="https://github.com/user-attachments/assets/e324aad0-4da5-4273-b24b-6e72a96e5e97" />
+
+As we can see, the r2 score for forebrain neuron count improved farther up to 0.9438, but for cerebellum neuron count no improvement was made.
 
 # Abbreviations in csv data files
+
 Forebr m - forebrain mass (cerebral cortex in mammals, pallium in birds),
 Cer m - cerebellum mass,
 rest m - rest of brain mass,
