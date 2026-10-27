@@ -152,19 +152,24 @@ As we can see, the r2 score for forebrain neuron count improved farther up to 0.
 Since correlation between cerebellum mass and cerebellum neuron count is very high (0.98), it's much more likely that a simple linear regression model would have performed much better.
 # Abbreviations in csv data files
 
-Forebr m - forebrain mass (cerebral cortex in mammals, pallium in birds),
-Cer m - cerebellum mass,
+Forebrain m - forebrain mass (cerebral cortex in mammals, pallium in birds),
+Cerebellum m - cerebellum mass,
 rest m - rest of brain mass,
-whole brain m - brain mass,
-forebr n - number of neurons in forebrain,
-cer n - number of neurons in cerebellum,
+Whole brain m - brain mass,
+Forebrain n - number of neurons in forebrain,
+Cerebellum n - number of neurons in cerebellum,
 rest n - number of neurons in rest of the brain,
-whole brain n - number of neurons in entire brain,
-body m - body mass,
-fmr % - relative mass of forebrain (to whole brain),
-cmr % - relative mass of cerebellum,
+Whole brain n - number of neurons in entire brain,
+Body m - body mass,
+Forebrain m r% - relative mass of forebrain (to whole brain),
+Cerebellum m r% - relative mass of cerebellum,
 rmr % - relative mass of rest of the brain.
 All masses are provided in grams.
+
+Forebrain n d - Forebrain neuron density
+Cerebellum n d - cerebellum neuron density
+Whole brain n d - Entire brain neuron density
+All density values are neurons in milligram of structure. 
 
 # Sources of the data used
 Most of the neuron count data is collected from articles cited in wikipedia's [list of animals by number of neurons page](https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons),
