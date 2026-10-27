@@ -166,9 +166,9 @@ Cerebellum m r% - relative mass of cerebellum,
 rmr % - relative mass of rest of the brain.
 All masses are provided in grams.
 
-Forebrain n d - Forebrain neuron density
-Cerebellum n d - cerebellum neuron density
-Whole brain n d - Entire brain neuron density
+Forebrain n d - Forebrain neuron density,
+Cerebellum n d - cerebellum neuron density,
+Whole brain n d - Entire brain neuron density.
 All density values are neurons in milligram of structure. 
 
 # Sources of the data used
