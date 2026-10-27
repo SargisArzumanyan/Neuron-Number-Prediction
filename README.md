@@ -49,7 +49,7 @@ Note that cetaceans belong to the order Artiodactyla, which is also sometimes ca
 4. The same is true for cerebellum
 <img width="999" height="679" alt="image" src="https://github.com/user-attachments/assets/9a1e5d67-f629-4319-b642-e802f3444468" />
 
-### Hostograms
+### Histograms
 
 1. Most forebrain mass values are concentrated between 0.1 - 1 gram and 1 - 100 gram ranges
 <img width="987" height="697" alt="image" src="https://github.com/user-attachments/assets/d8e57efd-164c-4d77-b6f0-1f9d4067c436" />
@@ -63,7 +63,13 @@ Note that cetaceans belong to the order Artiodactyla, which is also sometimes ca
 4. Most cerebellum neuron counts are between 10 million and billion or bitween 1 billion and 10 billion 
 <img width="987" height="697" alt="image" src="https://github.com/user-attachments/assets/21d482ad-ac00-4d60-be16-fcb002e014ac" />
 
+### Correlation coefficients between different features
 
+<img width="1724" height="816" alt="image" src="https://github.com/user-attachments/assets/905383a5-d8e1-43e6-91c2-b2e90c6c8d97" />
+
+As we can see forebrain neuron count (Forebrain n) has the highest correlation with forebrain mass (Forebrain m), which has the value of 0.71
+and cerebellum neuron count (Cerebellum n) is most correlated with cerebellum mass (Cerebellum m) which has the value of 0.98.
+Interestingly forebrain neuron density (Forebrain n d) and cerebellum neuron density (Cerebellum n d) are highly correlated with each other with value of 0.8, suggesting coordinated evolution of 2 structures. 
 
 # Abbreviations in csv data files
 Forebr m - forebrain mass (cerebral cortex in mammals, pallium in birds),
