@@ -30,7 +30,9 @@ If we look at the mammalian datasets [^8] [^9] [^10], the highest other cell den
 
 # Results
 
-## Mammals
+# Mammals
+
+## Data exploration and visualization
 
 Let's first look at pictures.
 Note that cetaceans belong to the order Artiodactyla, which is also sometimes called Cetaartiodactyla, to which alongside cetaceans belong animals such as Deers, Pigs, Giraffes, currently, there are only 3 cetaceans in the dataset, Harbor porpoise, Minke whale, and Short-finned pilot whale, which occupy highest 3 values of Artiodactyla (have lilac color on graphs) 
@@ -70,6 +72,57 @@ Note that cetaceans belong to the order Artiodactyla, which is also sometimes ca
 As we can see forebrain neuron count (Forebrain n) has the highest correlation with forebrain mass (Forebrain m), which has the value of 0.71
 and cerebellum neuron count (Cerebellum n) is most correlated with cerebellum mass (Cerebellum m) which has the value of 0.98.
 Interestingly forebrain neuron density (Forebrain n d) and cerebellum neuron density (Cerebellum n d) are highly correlated with each other with value of 0.8, suggesting coordinated evolution of 2 structures. 
+
+### The ratios between maximum and minimum values of different features
+
+<img width="462" height="458" alt="AdobeExpressPhotos_c455aa9a177a425b867e8acc79cf8363_CopyEdited" src="https://github.com/user-attachments/assets/d57d1123-7262-482b-b01e-3c25da24d25b" />
+
+As we can see the variation in cerebellum mass and cerebellum neuron counts is larger than that for forebrain
+
+## Regression
+
+Let try to build regression models to predict Forebrain and Cerebellum neuron counts.
+Random forest regressor is used.
+
+### Regression with many numerical features, some of which are correlated with each other
+
+The following features are used for this model
+
+"Forebrain m", "Cerebellum m", "Whole brain m", "Body m", "Forebrain m r %", "Cerebellum m r %", "Forebrain m per body m",
+          "Cerebellum m per body m", "Whole brain m per body m"
+
+For forebrain neuron count 
+
+r2 score and mean squared error values are
+<img width="654" height="169" alt="AdobeExpressPhotos_7d9133faffa84b6fbce9858e83ee0c19_CopyEdited" src="https://github.com/user-attachments/assets/48e1ee0a-2a74-4986-9d6b-9513676ac785" />
+
+Features ranked by importance
+<img width="833" height="560" alt="image" src="https://github.com/user-attachments/assets/a3609f3a-b954-49f4-9276-3fbb44c14c0a" />
+
+For cerebellum neuron count
+
+r2 score and mean squared error
+<img width="728" height="176" alt="AdobeExpressPhotos_6535ef038231489f9bcf95894d3778bc_CopyEdited" src="https://github.com/user-attachments/assets/3debdb99-30d3-49c7-bce0-1af982ad6f2b" />
+
+features ranked by importance
+<img width="833" height="560" alt="image" src="https://github.com/user-attachments/assets/31171512-4e16-4ba6-b068-046b10662bcc" />
+
+As we can see forebrain neuron counts are much easier to predict
+
+### Regression with each individual feature
+
+The results for forebrain neuron count
+
+<img width="435" height="441" alt="AdobeExpressPhotos_5b1b5380d69142a5a4e451ab7be12e75_CopyEdited" src="https://github.com/user-attachments/assets/63bc4f2d-6444-4e22-bdfe-633e87a0c5a2" />
+
+As we can see Cerebellum mass, whole brain mass and forebrain mass are the most informative features with 0.8992, 0.88, 0.8776 r2 scores respectively.
+This scores are considerably higher than the ones obtained when combined features were used in previous section, suggesting that the existence of correlation between different features caused multicollinearity and made the results worse.
+
+But for cerebellum no improvement was made, with body mass being the most informative feature with r2 score of 0.57
+
+<img width="451" height="440" alt="AdobeExpressPhotos_b78715caf0224d80b89da071058eebe2_CopyEdited" src="https://github.com/user-attachments/assets/2c3db2e1-f5ea-4c7d-8b48-268a1d7d1f14" />
+
+
 
 # Abbreviations in csv data files
 Forebr m - forebrain mass (cerebral cortex in mammals, pallium in birds),
