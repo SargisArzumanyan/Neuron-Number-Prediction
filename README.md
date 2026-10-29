@@ -173,11 +173,10 @@ All density values are neurons in milligram of structure.
 
 # Sources of the data used
 Most of the neuron count data is collected from articles cited in wikipedia's [list of animals by number of neurons page](https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons),
-numbers for many birds are colected from [^1] article,
+numbers for many birds are collected from [^1] article, numbers for other birds and reptiles are from [^13] and more bird neuron counts are from [^4] and [^14].
 
-and Harbour porpoise's numbers are from [here](https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/).
-
-Numbers for Short-finned pilot whale and Common minke whale are from [^7]
+Numbers for Bats are from [^15], and for many Glires, Primates, Scandentia, Eulipotyphlans, Afrotherians, Artiodactyls are from [^8], Carnivore counts are from [^9] and Canid counts are from [^16], numbers for Marsupials are from [^10], and Harbour porpoise's numbers are from [here](https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/).
+Numbers for Short-finned pilot whale and Common minke whale are from [^7].
 
 
 ## References
@@ -211,3 +210,7 @@ ISSN 0361-9230,
 https://doi.org/10.1016/j.brainresbull.2005.02.001.
 (https://www.sciencedirect.com/science/article/pii/S0361923005000420)](https://www.bio.psy.ruhr-uni-bochum.de/bpsy/mam/content/documents/poth_2005_neuron_numbers_in_sensory_cortices_of_five_delphinids.pdf)
 [^12]: [Ridgway SH, Brownson RH, Van Alstyne KR, Hauser RA. Higher neuron densities in the cerebral cortex and larger cerebellums may limit dive times of delphinids compared to deep-diving toothed whales. PLoS One. 2019 Dec 16;14(12):e0226206. doi: 10.1371/journal.pone.0226206. PMID: 31841529; PMCID: PMC6914331.](https://pmc.ncbi.nlm.nih.gov/articles/PMC6914331/)
+[^13]: [Kverková K, Marhounová L, Polonyiová A, Kocourek M, Zhang Y, Olkowicz S, Straková B, Pavelková Z, Vodička R, Frynta D, Němec P. The evolution of brain neuron numbers in amniotes. Proc Natl Acad Sci U S A. 2022 Mar 15;119(11):e2121624119. doi: 10.1073/pnas.2121624119. Epub 2022 Mar 7. PMID: 35254911; PMCID: PMC8931369.](https://pmc.ncbi.nlm.nih.gov/articles/PMC8931369/)
+[^14]: [More bird neuron counts from dissertation](http://hdl.handle.net/20.500.11956/151559)
+[^15]: [Herculano-Houzel S, da Cunha FB, Reed JL, Kaswera-Kyamakya C, Gillissen E, Manger PR (December 2020). "Microchiropterans have a diminutive cerebral cortex, not an enlarged cerebellum, compared to megachiropterans and other mammals". The Journal of Comparative Neurology. 528 (17): 2978–2993. doi:10.1002/cne.24985. PMID 32656795. S2CID 220499352.](https://onlinelibrary.wiley.com/doi/10.1002/cne.24985)
+[^16]: [Canid neuron count dissertation](https://dspace.cuni.cz/handle/20.500.11956/116599)
