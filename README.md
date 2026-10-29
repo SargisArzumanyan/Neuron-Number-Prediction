@@ -167,7 +167,7 @@ We see that 75% of errors for forebrain predictions are below 138 million, and t
 For cerebellum 75% of errors are below 244 million, but the maximum error is 186 billion.
 So, it confirms that a single outlier made results look much worse than they actually are, it is most likely true for rest of the models too. 
 
-Abbreviations 
+# Abbreviations 
 
 Forebrain m - forebrain mass (cerebral cortex in mammals, pallium in birds),
 Cerebellum m - cerebellum mass,
