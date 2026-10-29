@@ -147,10 +147,25 @@ As we can see, in this case no improvement was made
 
 As we can see, the r2 score for forebrain neuron count improved farther up to 0.9438, but for cerebellum neuron count no improvement was made.
 
-### Observation for cerebellum
+Let's plot predicted values against observed ones for this model.
 
-Since correlation between cerebellum mass and cerebellum neuron count is very high (0.98), it's much more likely that a simple linear regression model would have performed much better.
-# Abbreviations in csv data files
+<img width="1591" height="591" alt="image" src="https://github.com/user-attachments/assets/d5dab0ab-41b3-4cbe-87bf-db6dd13fb5e7" />
+
+We see that most cerebellar neuron count predictions line very well with observed values, and poor r2 and MSE scores are result of a single outlier.
+
+To test further that hypothesis, let's explore the statistics of prediction errors.
+
+For forebrain
+
+<img width="336" height="329" alt="image" src="https://github.com/user-attachments/assets/ac5410e7-3a24-4481-b0ff-acb61b2e611c" />
+
+For cerebellum
+
+<img width="351" height="367" alt="image" src="https://github.com/user-attachments/assets/df03fe4a-1837-483d-9484-822ebb11fecf" />
+
+We see that 75% of errors for forebrain predictions are below 138 million, and the maximum error is 893 million.
+For cerebellum 75% of errors are below 244 million, but the maximum error is 186 billion.
+So, it confirms that a single outlier made results look much worse than they actually are, it is most likely true for rest of the models too. 
 
 Forebrain m - forebrain mass (cerebral cortex in mammals, pallium in birds),
 Cerebellum m - cerebellum mass,
