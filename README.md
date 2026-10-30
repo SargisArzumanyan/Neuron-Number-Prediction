@@ -188,6 +188,10 @@ If we exclude the outlier from the dataset, we get MSE and r2 scores very close 
 
 <img width="651" height="63" alt="AdobeExpressPhotos_50156f4fa7ad4ab9b1e4645d2ba79826_CopyEdited" src="https://github.com/user-attachments/assets/75a71967-7adf-4a25-8304-d6350a0c7a2c" />
 
+And mean absolute difference, maximum absolute difference, 75th percentiles of errors improve too.
+
+<img width="486" height="373" alt="AdobeExpressPhotos_768b53f9ee1342dcbfd87f863cbf8fb3_CopyEdited" src="https://github.com/user-attachments/assets/3317500c-6854-4e16-a137-347ecf24ff5f" />
+
 Because the goal here is to understand scaling rules for each species including exceptions, I will keep Elephant metrics (outlier) in the main test set.
 
 # Abbreviations 
