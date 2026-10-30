@@ -112,7 +112,15 @@ features ranked by importance
 
 <img width="833" height="560" alt="image" src="https://github.com/user-attachments/assets/31171512-4e16-4ba6-b068-046b10662bcc" />
 
-As we can see forebrain neuron counts are much easier to predict
+Let plot predictions against observations
+
+<img width="1591" height="591" alt="image" src="https://github.com/user-attachments/assets/9890e472-5515-44fc-8101-365a1bb0024e" />
+
+We see that most cerebellar neuron count predictions line relatively well with observed values, and poor r2 and MSE scores are a result of a single outlier.
+
+If we calculate r2 and MSE values for a test set from which African elephant (outlier) is excluded, we get
+
+<img width="417" height="53" alt="AdobeExpressPhotos_be23ed4af68242b69f8ba5f6dc126509_CopyEdited" src="https://github.com/user-attachments/assets/cc1d96bd-004a-4840-8a21-27bf9d0aa3ce" />
 
 ### Regression with each individual feature
 
@@ -123,9 +131,11 @@ The results for forebrain neuron count
 As we can see Cerebellum mass, whole brain mass and forebrain mass are the most informative features with 0.8992, 0.88, 0.8776 r2 scores respectively.
 This scores are considerably higher than the ones obtained when combined features were used in previous section, suggesting that the existence of correlation between different features caused multicollinearity and made the results worse.
 
-But for cerebellum no improvement was made, with body mass being the most informative feature with r2 score of 0.57.
+For cerebellum we see that when outlier is excluded, cerebellum mass is the best predictor, and when outlier is present no feature performs well.
 
-<img width="451" height="440" alt="AdobeExpressPhotos_b78715caf0224d80b89da071058eebe2_CopyEdited" src="https://github.com/user-attachments/assets/2c3db2e1-f5ea-4c7d-8b48-268a1d7d1f14" />
+<img width="489" height="706" alt="AdobeExpressPhotos_ca67c5af721446c1ab513a67df01211a_CopyEdited" src="https://github.com/user-attachments/assets/598e6fb8-15ba-47db-8fb9-49ed51e8e30f" />
+
+<img width="390" height="77" alt="AdobeExpressPhotos_90e3788fd57a4e87a5daabb5c5433480_CopyEdited" src="https://github.com/user-attachments/assets/753acbf7-7249-4c87-8aac-248674d31a69" />
 
 ### Let's pair 1 most intuitively important feature with each of others, including categorical taxonomic features, 'order' and 'family'
 
@@ -137,23 +147,27 @@ As we can see adding taxonomic information improved the results, with 'Forebrain
 
 For cerebellum neuron count, the cerebellum mass will be paired in the same way.
 
-<img width="497" height="724" alt="image" src="https://github.com/user-attachments/assets/11c5e333-ad0f-4963-935d-c15d85f81f9e" />
+When outlier is excluded from the test set, cerebellum mass paired with taxonomic features gives the highest scores.
 
-As we can see, in this case no improvement was made
+<img width="431" height="235" alt="AdobeExpressPhotos_52bc693df764428486375a06d8506696_CopyEdited" src="https://github.com/user-attachments/assets/b8c4f3f4-092e-4454-bb1f-71b00dddc4b5" />
+
+Few other combinations also give higher scores than cerebellum mass alone, which had r2 score close to 0.82.
+
+<img width="465" height="218" alt="AdobeExpressPhotos_434e85b16ebc49aebe54b4bcf6de1669_CopyEdited" src="https://github.com/user-attachments/assets/a48c2818-aeec-4915-b3d9-fc61f5c82cd6" />
+
+<img width="473" height="126" alt="AdobeExpressPhotos_54813fd129f54d24b74f25b10c1a4ded_CopyEdited" src="https://github.com/user-attachments/assets/fca09161-a33c-46e1-a2bb-c1f548577b1c" />
 
 ### Using structure mass + both taxonomic features
 
 <img width="518" height="117" alt="AdobeExpressPhotos_d0d0ebd97a164f09a51b6947b2d6bfcd_CopyEdited" src="https://github.com/user-attachments/assets/e324aad0-4da5-4273-b24b-6e72a96e5e97" />
 
-As we can see, the r2 score for forebrain neuron count improved farther up to 0.9438, but for cerebellum neuron count no improvement was made.
+As we can see, the r2 score for forebrain neuron count improved farther up to 0.9438, but there is no improvement when outlier is present.
 
-Let's plot predicted values against observed ones for this model.
+Let's plot predicted values against observed ones for this model too.
 
 <img width="1591" height="591" alt="image" src="https://github.com/user-attachments/assets/d5dab0ab-41b3-4cbe-87bf-db6dd13fb5e7" />
 
-We see that most cerebellar neuron count predictions line very well with observed values, and poor r2 and MSE scores are result of a single outlier.
-
-To test further that hypothesis, let's explore the statistics of prediction errors.
+Let's explore the statistics of prediction errors.
 
 For forebrain
 
@@ -164,8 +178,13 @@ For cerebellum
 <img width="351" height="367" alt="image" src="https://github.com/user-attachments/assets/df03fe4a-1837-483d-9484-822ebb11fecf" />
 
 We see that 75% of errors for forebrain predictions are below 138 million, and the maximum error is 893 million.
-For cerebellum 75% of errors are below 244 million, but the maximum error is 186 billion.
-So, it confirms that a single outlier made results look much worse than they actually are, it is most likely true for rest of the models too. 
+For cerebellum 75% of errors are below 244 million, but the maximum error is 186 billion when outlier (elephant) is included.
+
+If we exclude the outlier from the dataset, we get MSE and r2 scores very close to that of forebrain ones
+
+<img width="651" height="63" alt="AdobeExpressPhotos_50156f4fa7ad4ab9b1e4645d2ba79826_CopyEdited" src="https://github.com/user-attachments/assets/75a71967-7adf-4a25-8304-d6350a0c7a2c" />
+
+Because the goal here is to understand scaling rules for each species including exceptions, I will keep Elephant metrics (outlier) in the main test set.
 
 # Abbreviations 
 
