@@ -135,6 +135,7 @@ For cerebellum we see that when outlier is excluded, cerebellum mass is the best
 
 <img width="489" height="706" alt="AdobeExpressPhotos_ca67c5af721446c1ab513a67df01211a_CopyEdited" src="https://github.com/user-attachments/assets/598e6fb8-15ba-47db-8fb9-49ed51e8e30f" />
 
+
 <img width="390" height="77" alt="AdobeExpressPhotos_90e3788fd57a4e87a5daabb5c5433480_CopyEdited" src="https://github.com/user-attachments/assets/753acbf7-7249-4c87-8aac-248674d31a69" />
 
 ### Let's pair 1 most intuitively important feature with each of others, including categorical taxonomic features, 'order' and 'family'
@@ -155,13 +156,14 @@ Few other combinations also give higher scores than cerebellum mass alone, which
 
 <img width="465" height="218" alt="AdobeExpressPhotos_434e85b16ebc49aebe54b4bcf6de1669_CopyEdited" src="https://github.com/user-attachments/assets/a48c2818-aeec-4915-b3d9-fc61f5c82cd6" />
 
+
 <img width="473" height="126" alt="AdobeExpressPhotos_54813fd129f54d24b74f25b10c1a4ded_CopyEdited" src="https://github.com/user-attachments/assets/fca09161-a33c-46e1-a2bb-c1f548577b1c" />
 
 ### Using structure mass + both taxonomic features
 
 <img width="518" height="117" alt="AdobeExpressPhotos_d0d0ebd97a164f09a51b6947b2d6bfcd_CopyEdited" src="https://github.com/user-attachments/assets/e324aad0-4da5-4273-b24b-6e72a96e5e97" />
 
-As we can see, the r2 score for forebrain neuron count improved farther up to 0.9438, but there is no improvement when outlier is present.
+As we can see, the r2 score for forebrain neuron count improved farther up to 0.9438, but there is no improvement for cerebellum when outlier is present.
 
 Let's plot predicted values against observed ones for this model too.
 
