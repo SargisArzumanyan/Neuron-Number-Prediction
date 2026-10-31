@@ -135,7 +135,7 @@ For cerebellum we see that when outlier is excluded, cerebellum mass is the best
 
 <img width="489" height="706" alt="AdobeExpressPhotos_ca67c5af721446c1ab513a67df01211a_CopyEdited" src="https://github.com/user-attachments/assets/598e6fb8-15ba-47db-8fb9-49ed51e8e30f" />
 
-and
+and the best result specifically
 
 <img width="390" height="77" alt="AdobeExpressPhotos_90e3788fd57a4e87a5daabb5c5433480_CopyEdited" src="https://github.com/user-attachments/assets/753acbf7-7249-4c87-8aac-248674d31a69" />
 
