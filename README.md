@@ -194,6 +194,22 @@ And mean absolute difference, maximum absolute difference, 75th percentiles of e
 
 Because the goal here is to understand scaling rules for each species including exceptions, I will keep Elephant metrics (outlier) in the main test set.
 
+## Fitting data by power functions
+
+Let's fit our data by power functions, it will make differences in scaling rules in various animal orders more visible, and will be helpful to make predictions beyond limits imposed by current data. 
+
+### Forebrain
+
+<img width="1007" height="697" alt="image" src="https://github.com/user-attachments/assets/b5f40270-d202-483f-8538-2f397db09fb5" />
+
+We see that Primate's slope is steeper than that of other orders, meaning neuron count grows faster when we increase the forebrain mass.
+
+### Cerebellum
+
+<img width="1007" height="697" alt="image" src="https://github.com/user-attachments/assets/9e538baf-9d56-4ca5-b425-d5346dde08ab" />
+
+We see that the same is true for cerebellum, but the difference is smaller, and the order 'Eulipotyphla' has even a steeper slope. 
+
 # Abbreviations 
 
 Forebrain m - forebrain mass (cerebral cortex in mammals, pallium in birds),
