@@ -202,13 +202,13 @@ Let's fit our data by power functions, it will make differences in scaling rules
 
 <img width="1007" height="697" alt="image" src="https://github.com/user-attachments/assets/b5f40270-d202-483f-8538-2f397db09fb5" />
 
-We see that Primate's slope is steeper than that of other orders, meaning neuron count grows faster when we increase the forebrain mass.
+We see that Primate's slope is steeper than that of other orders, meaning larger brains have significantly more cortical neurons than smaller ones.
 
 ### Cerebellum
 
 <img width="1007" height="697" alt="image" src="https://github.com/user-attachments/assets/9e538baf-9d56-4ca5-b425-d5346dde08ab" />
 
-We see that the same is true for cerebellum, but the difference is smaller, and the order 'Eulipotyphla' has even a steeper slope. 
+We see that the same is true for cerebellum, but the difference is smaller, and the order Eulipotyphla has even a steeper slope. 
 
 # Abbreviations 
 
