@@ -208,7 +208,7 @@ We see that Primate's slope is steeper than that of other orders, meaning larger
 
 <img width="1007" height="697" alt="image" src="https://github.com/user-attachments/assets/9e538baf-9d56-4ca5-b425-d5346dde08ab" />
 
-We see that the same is true for cerebellum, but the difference is smaller, and the order Eulipotyphla has even a steeper slope. 
+We see that the same is true for cerebellum, but in this case, the order Eulipotyphla has even a steeper slope. 
 
 # Abbreviations 
 
