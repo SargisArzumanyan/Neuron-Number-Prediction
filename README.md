@@ -238,7 +238,7 @@ numbers for many birds are collected from [^1] article, numbers for other birds 
 Numbers for Bats are from [^15], and for many Glires, Primates, Scandentia, Eulipotyphlans, Afrotherians, Artiodactyls are from [^8], Carnivore counts are from [^9] and Canid counts are from [^16], numbers for Marsupials are from [^10], and Harbour porpoise's numbers are from [here](https://patzkelab.org/2019/06/10/30th-annual-meeting-of-cetology-study-group-of-japan-tokyo/).
 Numbers for Short-finned pilot whale and Common minke whale are from [^7].
 
-Life history traits are collected from [AnAge](https://genomics.senescence.info/species/index.html)
+Life history traits are collected from [AnAge](https://genomics.senescence.info/species/index.html) and taxonomic information is from [animalia.bio](https://animalia.bio/)
 
 
 ## References
